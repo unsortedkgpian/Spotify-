@@ -1,0 +1,62 @@
+.border{
+    border: 2px solid red;
+    /* just to get bok */
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items:center;
+}
+
+
+.invert{
+    filter: invert(1);
+}
+
+
+.bg-grey{
+    background-color: #212121;
+}
+
+.rounded{
+    border-radius:7px;
+}
+
+.m-1{
+    margin:5px;
+}
+
+.p-1{
+    padding: 20px;
+}
+
+.bg-black{
+    background-color: black;
+    color:white;
+}
+
+/* For WebKit (Chrome, Safari, etc.) */
+
+/* Track */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #121212; /* Color of the scrollbar handle */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Change color on hover */
+  }
+  
